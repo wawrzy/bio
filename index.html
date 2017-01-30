@@ -1,384 +1,300 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
+
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <!-- ===========================
+    THEME INFO
+    =========================== -->
+    <meta name="description" content="CVstrap is another Free minimal CV HTML theme by EvenFly built with Bootstrap 3.3.0. and released under CC-3.0 license.">
+    <meta name="keywords" content="curriculum vitae, cv, one page, onepage, bootstrap, responsive, resume, timeline, free cv">
+    <meta name="author" content="Mamun Srizon">
 
-    <title>Julien Wawrzyniak</title>
+    <!-- ===========================
+    SITE TITLE
+    =========================== -->
+    <title>Wawrzyniak Julien</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- ===========================
+    FAVICONS
+    =========================== -->
+    <link rel="icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-ipad-retina.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-iphone.png" />
 
-    <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
-    
+    <!-- ===========================
+    STYLESHEETS
+    =========================== -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- ===========================
+    FONTS & ICONS
+    =========================== -->
+    <link href='//fonts.googleapis.com/css?family=Kristi|Alegreya+Sans:300' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="js/jquery.js" type="text/javascript"></script>
-     <script src="./js/jquery-ui.js"></script>
-    <script src="js/typed.js"  type="text/javascript"></script>
-
-    
 </head>
 
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-test" href="#page-top">JW</a>
+<body>
+    <div class="container">
+        <!-- ===========================
+        HEADER
+        ============================ -->
+        <div id="header" class="row">
+            <div class="col-sm-2">
+                <img class="propic" src="img/wawrzy.JPG" alt="">
             </div>
+            <!-- photo end-->
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Projets</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">Moi</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+            <div class="col-sm-10">
+                <div class="cv-title">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <h1>Wawrzyniak Julien</h1>
+                        </div>
+                        <div class="col-sm-5 text-right dl-share">
+                            <!-- AddToAny BEGIN -->
+                            <a class="a2a_dd btn btn-default" href=""><span class="fa fa-share "></span> Partager</a>
+                            <script type="text/javascript">
+                                var a2a_config = a2a_config || {};
+                                a2a_config.linkname = "CV Julien Wawrzyniak";
+                                a2a_config.num_services = 6;
+                                a2a_config.prioritize = ["linkedin","email"];
+                            </script>
+                            <script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
+                            <!-- AddToAny END -->
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                                        
-                    <div class="intro">
-                        <span id="typed"></span>
+                            <a class="btn btn-success" href="img/CV_photo.pdf"><span class="fa fa-download"></span> Télécharger</a>
+                        </div>
                     </div>
+                    <h2>Developpeur informatique</h2>
+                </div><!-- Title end-->
+
+                <!-- ===========================
+                SOCIAL & CONTACT
+                ============================ -->
+                <div class="row">
+                    <div class="col-sm-4">
+                        <ul class="list-unstyled">
+                            <li><a href="mailto:support@evenfly.com"><span class="social fa fa-envelope-o"></span>julien.wawrzyniak@epitech.eu</a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li><a href="https://github.com/wawrzy"><span class="social fa fa-github"></span>Github</a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li><a href="https://fr.linkedin.com/in/julien-wawrzyniak-35ba98b4"><span class="social fa fa-linkedin"></span>Linkedin</a>
+                            </li>
+                        </ul>
+                    </div><!-- social 1st col end-->
+                </div><!-- header social end-->
+            </div><!-- header right end-->
+        </div><!-- header end-->
+
+        <hr class="firsthr">
+
+        <!-- ===========================
+        BODY LEFT PART
+        ============================ -->
+        <div class="col-md-8 mainleft">
+            <div id="statement" class="row mobmid">
+                <div class="col-sm-1">
+                    <span class="secicon fa fa-user"></span>
+                </div><!--icon end-->
+
+                <div class="col-sm-11">
+                    <h3>A propos de moi </h3>
+                    <p>Je suis Julien Wawrzyniak, jeune passionné d'informatique et étudiant dans l'école d'EPITECH à Strasbourg depuis 2 ans.</p>
+
+                    <p>Je suis développeur logiciels, spécialisé dans les systèmes embarqués et les programmes backend, tels que des serveurs de jeux. Je pratique également du reverse engineering pour mieux comprendre le fonctionnement des protections et des logiciels malveillants.</p>
+
+                    <p>Et pour terminer, durant mon temps libre, je fais un peu de développement web. J'utilise couramment les principaux systèmes d'exploitation Linux, Windows et (plus rarement) Mac.</p>
+                   <p class="signature">Wawrzyniak</p>
+                </div><!--info end-->
+            </div><!--personal statement end-->
+
+            <hr>
+
+            <div id="education" class="row mobmid">
+                <div class="col-sm-1">
+                    <span class="secicon fa fa-graduation-cap"></span>
+                </div><!--icon end-->
+
+                <div class="col-sm-11">
+                    <h3>Diplômes & Etudes</h3>
+
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h4>Epitech, Strasbourg, FRANCE</h4>
+                            <p class="sub"><a href="">Ideal Institute of Science and Technology</a>
+                      </div>
+
+                        <div class="year col-md-3">
+                            <p>2014-Aujourd'hui</p>
+                        </div>
+                    </div><!--Education & Certification 1 end-->
                     
-                    <hr class="star-light">
-                    <span class="skills">Developpeur Informatique</span>
+                    <hr>
+                    
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h4>Baccalauréat Scientifique</h4>
+                            <p class="sub"><a href="">Lycée Jeanne-D'arc, Mulhouse, FRANCE</a>
+                    </div>
+
+                        <div class="year col-md-3">
+                            <p>2012-2014</p>
+                        </div>
+                    </div><!--Education & Certification 2 end-->
                 </div>
-                <br>
-                <a href="./cv.html" class="btn-social btn-outline">CV</a>
-            </div>
-        </div>
-    </header>
-
-    <script src="js/typed.js"  type="text/javascript"></script>
-    <script>
-            $("#typed").typed({
-            strings:  ["Julien Wawrzyniak "],
-            typeSpeed: 20,
-        });
-    </script>
-                    
-    
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row text-center">
-            <a href="https://github.com/wawrzy" class="btn btn-primary" style="font-size:30px;background-color:black"><i class="fa fa-github"></i>  GitHub</a>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Projets</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
+            </div><!--Education & Certifications end-->
             
-            
-            <div class="scrollbar">
-				<div class="handle">
-					<div class="mousearea"></div>
-				</div>
-			</div>
-            
-            <div class="frame oneperframe" id="oneperframe">
-				<ul class="clearfix" style="transform: translateZ(0px) translateX(-4500px); width: 8444px;">
-                    <li>
-                        <div class="col-sm-4 portfolio-item">
-                            <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">           
-                                <div class="caption">
-                                    <div class="caption-content">
-                                        <i class="fa fa-search-plus fa-3x"></i>
-                                    </div>
-                                </div>
-                                <img src="img/portfolio/zappy.png" class="img" width="400px" height="100%" alt="">
-                            </a>
-                        </div>
-                    </li>
-                    
-                    <li>
-                        <div class="col-sm-4 portfolio-item">
-                            <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">           
-                                <div class="caption">
-                                    <div class="caption-content">
-                                        <i class="fa fa-search-plus fa-3x"></i>
-                                    </div>
-                                </div>
-                        
-                                <img src="img/portfolio/logo.png" class="img" width="400px" height="100%" alt="">
-                            </a>
-                        </div>
-                    </li>
-                    
-                    <li>
-                        <div class="col-sm-4 portfolio-item">
-                            <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">           
-                                <div class="caption">
-                                    <div class="caption-content">
-                                        <i class="fa fa-search-plus fa-3x"></i>
-                                    </div>
-                                </div>
-                        
-                                <img src="img/portfolio/ftp.png"  class="img" width="400px" height="100%" alt="">
-                            </a>
-                        </div>
-                    </li>
-                    
-				</ul>
-			</div>
+            <hr>
 
-            <div class="controls center">
-				<button class="btn btn-lg prev"><i class="glyphicon glyphicon-chevron-left"></i> prev</button>
-				<button class="btn btn-lg next">next <i class="glyphicon glyphicon-chevron-right"></i></button>
-			</div>
+            <!-- ===========================
+            JOB EXPERIENCES
+            ============================ -->
+            <div id="job" class="row mobmid">
+                <div class="col-sm-1">
+                    <span class="secicon fa fa-briefcase"></span>
+                </div><!--icon end-->
 
+                <div class="col-sm-11">
+                    <h3>Job Experiences</h3>
+
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h4>Concepteur & Développeur tests application Web </h4>
+                            <p class="sub"><a href="">Dalim Software, Kehl, Allemagne</a>
+                            </p>
+                            <p>- Création de scripts pour tester une application Web.</p>
+                            <p>- Déploiement des tests sur Jenkins.</p>
+                        </div>
+
+                        <div class="year col-md-3">
+                            <p>Juillet 2015 - Décembre 2015</p>
+                        </div>
+                    </div><!--Job 1 end-->
+                </div><!--Job experiences end-->
+            </div><!--Job experiences end-->
+        </div><!--left end-->
         
-        
-        </div>
-    </section>
-    <script src="js/jquery.js"></script>
-     <script src="./js/jquery-ui.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/sly.js"  type="text/javascript"></script>
-    <script src="js/horizontal.js" type="text/javascript"></script>
-    
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
+        <!-- ===========================
+        SIDEBAR
+        =========================== -->
+        <div class="col-md-4 mainright">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>A propos de moi</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class=" col-lg-offset-1">
-                    <p>Je suis <mark>Julien Wawrzyniak</mark>, jeune passionné d'informatique et étudiant dans l'école d'<mark>EPITECH</mark> à Strasbourg depuis 2 ans.</p>
-                        
-                    <p>Je suis développeur logiciels, spécialisé dans les <mark>systèmes embarqués</mark> et les <mark>programmes backend</mark>, tels que des serveurs de jeux. Je pratique également du <mark>reverse engineering</mark> pour mieux comprendre le fonctionnement des protections et des logiciels malveillants.</p>
+                <div class="col-sm-1 col-md-2 mobmid">
+                    <span class="secicon fa fa-magic"></span>
+                </div><!--icon end-->
 
-                        <p>Et pour terminer, durant mon temps libre, je fais un peu de <mark>développement web</mark>. J'utilise couramment les principaux systèmes d'exploitation <mark>Linux</mark>, <mark>Windows</mark> et (plus rarement) <mark>Mac</mark>.</p>
-                </div>
+                <div class="col-sm-11 col-md-10">
+                    <h3 class="mobmid">Compétences </h3>
+
+                    <p>C/C++</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                            <span class="sr-only">50% Complete (success)</span>
+                        </div>
+                    </div><!--skill end-->
+
+
+                    <p>Java</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                            <span class="sr-only">50% Complete</span>
+                        </div>
+                    </div><!--skill end-->
+
+                    <p>Scripts (Python, Shell, Lua)</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                            <span class="sr-only">85% Complete (warning)</span>
+                        </div>
+                    </div><!--skill end-->
+
+                    <p>Web (Html5, Php, Css, Javascript)</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                            <span class="sr-only">40% Complete (danger)</span>
+                        </div>
+                    </div><!--skill end-->
+                </div><!--info end-->
+            </div><!--tech skills end-->
+            
+            <hr>
+
+            <div class="row mobmid">
+                <div class="col-sm-1 col-md-2">
+                    <span class="secicon fa fa-trophy"></span>
+                </div><!--icon end-->
+
+                <div class="col-sm-11 col-md-10 ">
+                    <h3>Certifications & Concours</h3>
+
+                    <div class="award">
+                        <h4>2014 La Nuit de l'Info</h4>
+                        <p>Participant</p>
+                    </div>
+                    <!--1st award end-->
+
+                    <div class="award">
+                        <h4>2015 La Nuit de l'Info</h4>
+                        <p>Participant</p>
+                    </div>
+
+                    <div class="award">
+                        <h4>2016 Hacking Industry Camp</h4>
+                        <p>Participant</p>
+                    </div>
+
+                    <div class="award">
+                        <h4>2016 Hacking Industry Camp</h4>
+                        <p>Participant</p>
+                    </div>
+
+                    <div class="award">
+                        <h4>2016 Startup Weekend</h4>
+                        <p>2 prix</p>
+                    </div>
+                </div><!--awards end-->
 
             </div>
-        </div>
-    </section>
+            
+            <hr>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contactez Moi</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form action="https://formspree.io/wawrzyniakjulien@gmail.com" method="POST">
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input name="name" type="text" class="form-control" placeholder="Nom" id="name" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input name="_replyto" type="email" class="form-control" placeholder="Adresse Mail" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Numéros de téléhpone" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Envoyer</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
+    <!-- ===========================
+    FOOTER
+    =========================== -->
     <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Adresse</h3>
-                        <p>5 rue du Marais Kageneck
-                            <br>67000 Strasbourg</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Retrouvez moi sur</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/wawrzy" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4" style="vertical-align:middle;">
-                        <h3>Site réalisait avec</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-html5"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-css3"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
+        <div class="footer-below" >
                         <span class="fa fa-fw fa-code"></span>
-                         avec 
+                        avec
                         <span class="fa fa-fw fa-heart"></span>
-                         par Julien Wawrzyniak
-                    </div>
-                </div>
-            </div>
+                        par Julien Wawrzyniak
         </div>
+        <!--<p>&copy; <a href="http://creativecommons.org/licenses/by/3.0/">CC-3.0</a>, Just another CV template by <a href="https://evenfly.com">EvenFly </a> - Designed by <a target="_blank" href="http://www.facebook.com/towkirahmedbappy">Towkir Ahmed Bappy</a>.-->
+        <!--</p>-->
     </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Nom</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/zappy.png" class="img-responsive img-centered" alt="">
-<!--                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>-->
-                            <ul class="list-inline item-details">
-<!--
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
--->
-                                <li>Date:
-<!--
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
--->
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-     <script src="./js/jquery-ui.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-<!--    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
-
+    <!--necessary scripts and plugins-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/evenfly.js"></script>
 </body>
 
 </html>
